@@ -1,0 +1,27 @@
+{
+  "name": "German E1/E2 Keyboard Layout",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "German extended E1/E2 keyboard layout for Chrome OS.",
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "German E1",
+      "type": "ime",
+      "id": "german_xkb_e1",
+      "description": "German extended E1 keyboard layout",
+      "language": ["de"],
+      "layouts": ["de(e1)"]
+    },
+    {
+      "name": "German E2",
+      "type": "ime",
+      "id": "german_xkb_e2",
+      "description": "German extended E2 keyboard layout",
+      "language": ["de"],
+      "layouts": ["de(e2)"]
+    }
+  ]
+}
